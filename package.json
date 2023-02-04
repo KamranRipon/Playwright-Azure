@@ -1,0 +1,21 @@
+{
+  "name": "playwright-azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamranRipon/Playwright-Azure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamranRipon/Playwright-Azure/issues"
+  },
+  "homepage": "https://github.com/KamranRipon/Playwright-Azure#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
