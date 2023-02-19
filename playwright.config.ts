@@ -42,11 +42,7 @@ const config: PlaywrightTestConfig = {
     trace: "on-first-retry",
     headless: false,
 
-    launchOptions: {
-      proxy: {
-        server: "10.65.108.2:3128",
-      },
-    },
+    
   },
 
   /* Configure projects for major browsers */
@@ -58,19 +54,19 @@ const config: PlaywrightTestConfig = {
       },
     },
 
-    {
-      name: "firefox",
-      use: {
-        ...devices["Desktop Firefox"],
-      },
-    },
+//     {
+//       name: "firefox",
+//       use: {
+//         ...devices["Desktop Firefox"],
+//       },
+//     },
 
-    {
-      name: "webkit",
-      use: {
-        ...devices["Desktop Safari"],
-      },
-    },
+//     {
+//       name: "webkit",
+//       use: {
+//         ...devices["Desktop Safari"],
+//       },
+//     },
 
     /* Test against mobile viewports. */
     // {
