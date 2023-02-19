@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    npx playwright test
     npm run test
   displayName: 'npm install and test'
