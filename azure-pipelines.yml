@@ -11,8 +11,8 @@ trigger:
 jobs:
   - job: test
     timeoutInMinutes: 60
-    pool:
-      vmImage: ubuntu-latest
+#     pool:
+#       vmImage: ubuntu-latest
 
     steps:
       - task: NodeTool@0
