@@ -9,7 +9,7 @@
     "url": "git+https://github.com/KamranRipon/Playwright-Azure.git"
   },
   "scripts": {
-    "test": "npx playwright test"
+    "test": "playwright test --project=chromium --reporter=line"
   },
   "keywords": [],
   "author": "",
