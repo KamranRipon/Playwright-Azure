@@ -20,7 +20,6 @@
   "homepage": "https://github.com/KamranRipon/Playwright-Azure#readme",
   "devDependencies": {
     "@playwright/test": "^1.30.0",
-    "@types/node": "^18.11.18",
-    "playwright": "^1.30.0"
+    "@types/node": "^18.11.18"
   }
 }
