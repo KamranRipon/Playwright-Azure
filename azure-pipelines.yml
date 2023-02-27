@@ -10,6 +10,7 @@ trigger:
 
 jobs:
   - job: test
+    image: mcr.microsoft.com/playwright:v1.22.0-focal
     timeoutInMinutes: 60
 #     pool:
 #       vmImage: ubuntu-latest
